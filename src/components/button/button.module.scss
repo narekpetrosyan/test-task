@@ -1,0 +1,24 @@
+.btnWrapper {
+  
+  .btn {
+    border: none;
+    padding: 6px 12px;
+    cursor: pointer;
+    border-radius: 4px;
+    background: darkslateblue;
+    color: aliceblue;
+    font-size: 18px;
+    font-weight: 400;
+    transition: all 300ms ease;
+    
+    &:hover {
+      box-shadow: 0px 3px 7px 0px rgba(161, 152, 189, 0.76);
+    }
+  }
+  
+  .btnLoading {
+    cursor: progress;
+    opacity: .8;
+    pointer-events: none;
+  }
+}

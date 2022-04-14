@@ -1,0 +1,21 @@
+.favoriteWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 50px;
+  gap: 20px;
+  
+  .favoriteJokeItems {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 100vh;
+    overflow-y: auto;
+    
+    .favoriteJokeItem {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+  }
+}
